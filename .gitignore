@@ -13,3 +13,6 @@ __pycache__/
 
 # Ignore environment files
 .env
+
+# Ignore discussion text file for private data
+discussion.txt
