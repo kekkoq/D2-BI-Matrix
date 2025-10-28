@@ -1,6 +1,8 @@
 import re
 from collections import Counter
 
+import matplotlib.pyplot as plt
+
 # Load the raw discussion text
 with open("discussion.txt", "r", encoding="utf-8") as file:
     raw_text = file.read()
@@ -55,7 +57,7 @@ print("\n🛠️ Most Popular Tools to Learn:")
 for tool, count in tool_counter.most_common(5):
     print(f"{tool}: {count}")
 
-import matplotlib.pyplot as plt
+
 
 # Get top 5 activities and tools
 top_activities = activity_counter.most_common(5)
