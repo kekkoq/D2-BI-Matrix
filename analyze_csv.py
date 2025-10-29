@@ -49,5 +49,5 @@ for i, count in enumerate(tool_values):
 
 # Layout and save
 plt.tight_layout()
-plt.savefig("activity_tool_summary.png", dpi=300, bbox_inches='tight')
-plt.show()
+plt.savefig("activity_tool_summary.png", dpi=300, bbox_inches='tight')  # ✅ Save first
+plt.show()  # ✅ Show after saving
